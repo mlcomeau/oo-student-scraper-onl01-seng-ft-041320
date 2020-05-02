@@ -12,7 +12,7 @@ class Scraper
 
     students = []
 
-    
+
 
   end
 
