@@ -33,7 +33,7 @@ class Scraper
 
 
     scraped_details[:profile_quote] = doc.css("div.profile-quote")
-    scraped_details[:bio] = doc.css("div.description-holder").text 
+    scraped_details[:bio] = doc.css("div.description-holder").text
 
   end
 
