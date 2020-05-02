@@ -9,7 +9,7 @@ class Scraper
     html = open("https://learn-co-curriculum.github.io/student-scraper-test-page/index.html")
 
     doc = Nokogiri::HTML(html)
-    binding.pry 
+    binding.pry
     students = []
 
 
