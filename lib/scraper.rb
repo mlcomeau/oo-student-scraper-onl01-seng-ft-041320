@@ -19,7 +19,7 @@ class Scraper
       students << student_details
     end
 
-    students 
+    students
 
   end
 
