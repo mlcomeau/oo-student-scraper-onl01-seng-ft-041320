@@ -36,7 +36,7 @@ class Scraper
         scraped_details[:twitter] = social.attribute("href")
       elsif social.attribute("href").include?("linkedin")
         scraped_details[:linkedin] = social.attribute("href")
-      elsif social.attribute("href").include?("github").value
+      elsif social.attribute("href").include?("github")
         scraped_details[:github] = social.attribute("href")
       else
         scraped_details[:blog] = social.attribute("href")
