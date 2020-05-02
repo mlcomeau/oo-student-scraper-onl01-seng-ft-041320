@@ -11,7 +11,7 @@ class Scraper
     doc = Nokogiri::HTML(html)
     students = []
 
-    doc.css("div.student-card") each do |student|
+    doc.css("div.student-card").each do |student|
       student_details = {}
       student_details[:name] = student.css("h4.student-name").text
       student_details[:location] = student.css("p.student-location").text
